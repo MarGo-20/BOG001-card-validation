@@ -5,51 +5,42 @@
 ## Índice
 
 * [1. Descripción del proyecto](#1-Descripción-del-proyecto)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [2. Investigación UX](#2-Investigación-UX)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
 
 ***
 
 ## 1. Descripción del proyecto
 
-El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
-también llamado algoritmo de módulo 10, es un método de suma de verificación,
-se utiliza para validar números de identificación; tales como el IMEI de los
-celulares, tarjetas de crédito, etc.
+Nuestro proyecto está enfocado en las personas que les gusta el arte y quieren visitar cualquier museo del mundo. Aprovechando el tema de la pandemia, los museos han abierto la posibilidad de visitarlos digitalmente. Compra tus entradas y visita tu museo favorito desde la comodidad de tu casa.
 
-Pasos del algoritmo:
-- Obtenemos la reversa del número a verificar (que solamente contiene dígitos [0-9])
-- A todos los números que ocupan una posición par se les debe multiplicar por dos, si este número es mayor o igual a 10,
-debemos sumar los dígitos del resultado
-- El número a verificar será válido si la suma de sus dígitos finales es un múltiplo de 10.
 
-## 2. Resumen del proyecto
+## 2. Investigación UX
 
-En este proyecto tendrás que construir una aplicación web que le permita a un
-usuario validar el número de una tarjeta de crédito. Además, tendrás que
-implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
-los últimos cuatro.
+### ¿Quiénes son los principales usuarios de producto?
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
-experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
-etc.
+Nuestros usuarios, personas de cualquier edad, amantes del arte que por la pandemia perdieron la posibilidad de visitar sus museos favoritos, ahora con la posibilidad de llevar todo a la pantalla, podrán visitar cualquier museo del mundo desde cualquier lugar. Explicar quiénes son los usuarios y los objetivos en relación con el producto.
+
+### ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
+
+Nuestros usuarios podrán acceder por medio de nuestra aplicación a diferentes lugares de entretenimiento de manera virtual, que les brindaran experiencias culturales, de diversión y de aprendizaje.
+
+### ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
+
+Estamos brindando a los usuarios la oportunidad de acceder a este tipo de experiencia sin tener que desplazarse fisicamente a un espacio y disfrutarlo desde la comodidad de su casa o desde cualquier lugar y hora que deseen.
+
+### Prototipo (sketch)
+
+
+
 
 ## 3. Objetivos de aprendizaje
 
-Trabajando en parejas aprenderán a construir una aplicación web que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
-
-Reflexiona y luego marca los objetivos que has llegado a **entender** y
-**aplicar** en tu proyecto.
+Hemos entendido y aplicado estos objetivos de aprendizaje en nuestro proyecto:
 
 ### UX
 
-* [ ] Diseñar la aplicación pensando y entendiendo al usuario
+* [x] Diseñar la aplicación pensando y entendiendo al usuario
 * [ ] Crear prototipos para obtener feedback e iterar
 * [ ] Aplicar los principios de diseño visual
 
