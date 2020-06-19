@@ -31,7 +31,11 @@ Estamos brindando a los usuarios la oportunidad de acceder a este tipo de experi
 
 ### Prototipo (sketch)
 
+//Subir imagenes
 
+### Prototipo (Figma)
+
+//Subir imagenes
 
 
 ## 3. Objetivos de aprendizaje
@@ -41,7 +45,7 @@ Hemos entendido y aplicado estos objetivos de aprendizaje en nuestro proyecto:
 ### UX
 
 * [x] Diseñar la aplicación pensando y entendiendo al usuario
-* [ ] Crear prototipos para obtener feedback e iterar
+* [x] Crear prototipos para obtener feedback e iterar
 * [ ] Aplicar los principios de diseño visual
 
 ### HTML y CSS
