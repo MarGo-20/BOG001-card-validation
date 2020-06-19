@@ -32,7 +32,7 @@ body {
     padding: 3px;
 }
 
-.texto{ /* Se elimino font-family: Arial */
+.texto{ 
     color: black;
     font-size: 13px;
     text-align: center;
