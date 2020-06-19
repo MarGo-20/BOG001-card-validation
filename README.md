@@ -1,4 +1,6 @@
-# Tarjeta de crédito válida
+<p align="center"> <img src="https://github.com/paulalenisb/BOG001-card-validation/blob/master/src/Imagenes/AF_Logo_Artlue.png" width="350"> </p>
+
+# Proyecto de crédito 
 
 ## Índice
 
