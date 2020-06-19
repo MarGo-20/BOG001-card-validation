@@ -33,13 +33,16 @@ function continuarCompra() {
 //Función para capturar isvalid y maskify.
 function realizarCompra() {
     let tarjeta = document.getElementById('tarjeta');
+
     //Se condiciona para obtener un alert como respuesta según true o false.
     /*DEBO COLOCAR DOBLE O TRIPLE IGUAL*/
-    if (validator.isValid(tarjeta.value) === true){
-        alert("tarjeta valida, tu compra ha sido exitosa");
+    if (tarjeta.value == "") {
+        alert("Debes completar el campo con un valor valido") }
+    else if (validator.isValid(tarjeta.value) === true){
+        alert("Tarjeta valida, tu compra ha sido exitosa");
     } 
-    else {
-        alert("Tarjeta invalida, Verifique la información e intentelo nuevamente o pruebe con otra tarjeta.");
+    else  {
+        alert("Tarjeta invalida, verifique la información e intentelo nuevamente o pruebe con otra tarjeta.");
     }
 
     let numeroEnmascarado = validator.maskify(tarjeta.value);
