@@ -1,4 +1,5 @@
 const validator = {
+  //Función para validar el número de la tarjeta.
   isValid: (numeroTarjeta) => {
     //Utilizamos el método split para dividir el objeto numeroTarjeta de tipo String en un array, separando la cadena en subcadenas.
     numeroTarjeta.split("");
@@ -20,7 +21,8 @@ const validator = {
     //Se verifica que se cumpla la condicion del algoritmo = 0.
     return ((suma % 10) == 0)
   },
-  //Función para enmascarar el numero de la tarjeta.
+
+  //Función para enmascarar el número de la tarjeta.
   maskify: (numeroTarjeta) => {
     //Se condiciona para realizar la función a mas de 4 digitos.
     if(numeroTarjeta.length > 4) {

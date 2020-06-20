@@ -16,11 +16,12 @@ body {
     display: inline-block;     
 }
 
+/*Para alinear en el centro el contenedor - display: table-cell - al tiempo - display:inline-block - en el anidado Table*/
 .contenedor2{
     height: 325px;
     width: 425px;
     margin: 15px auto;
-    display: table-cell;/*display: table-cell;para alinear en el centro el contenedor y se combina con display:inline-block del anidado*/ 
+    display: table-cell; 
 }
 .contenedor3{
     height: 450px;
@@ -32,24 +33,24 @@ body {
     padding: 3px;
 }
 
-.texto{ /* Se elimino font-family: Arial */
+.texto{ 
     color: black;
     font-size: 13px;
     text-align: center;
 }
-.texto2{ /* Se elimino font-family: Arial */
-    color: black;
-    font-size: 13px;
-    text-align: center;
-}
-
-.texto3{ /* Se agrego text3 de la ventana 3 */
+.texto2{ 
     color: black;
     font-size: 13px;
     text-align: center;
 }
 
-.texto4 { /* Se agrego text4 de la ventana 3 */
+.texto3{ 
+    color: black;
+    font-size: 13px;
+    text-align: center;
+}
+
+.texto4 { 
     color:red;
     font-size: 20px;
     text-align: center;
@@ -60,7 +61,7 @@ table{
     text-align: center;
     border-collapse: collapse;
     width: 500px;
-    display: inline-block;/*para alinear la tabla al centro y se combina con display:table-cell del contenedor */
+    display: inline-block;
 }
 
 td{
@@ -147,7 +148,3 @@ span{
     font-size: 10px;
     text-align: left; 
 }
-
-/*.click-buy{
-    border-radius:15;
-}*/
