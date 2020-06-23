@@ -87,7 +87,7 @@ Hemos entendido y aplicado estos objetivos de aprendizaje en nuestro proyecto:
 
 ### Buenas prácticas de desarrollo
 
-* [ ] Organizar y dividir el código en módulos (Modularización).
+* [x] Organizar y dividir el código en módulos (Modularización).
 * [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 * [ ] Uso de linter para seguir buenas prácticas (ESLINT).
 
