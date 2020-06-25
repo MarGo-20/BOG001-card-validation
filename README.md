@@ -63,7 +63,7 @@ Hemos entendido y aplicado estos objetivos de aprendizaje en nuestro proyecto:
 
 ### DOM
 
-* [ ] Uso de selectores de nodos del DOM
+* [x] Uso de selectores de nodos del DOM
 * [x] Manejo de eventos del DOM
 * [x] Manipulación dinámica del DOM
 
@@ -87,7 +87,7 @@ Hemos entendido y aplicado estos objetivos de aprendizaje en nuestro proyecto:
 
 ### Buenas prácticas de desarrollo
 
-* [ ] Organizar y dividir el código en módulos (Modularización).
+* [x] Organizar y dividir el código en módulos (Modularización).
 * [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 * [ ] Uso de linter para seguir buenas prácticas (ESLINT).
 
