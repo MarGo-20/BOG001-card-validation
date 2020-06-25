@@ -19,7 +19,7 @@ const validator = {
       suma += numero_invertido[i];
     }
     //Se verifica que se cumpla la condicion del algoritmo = 0.
-    return ((suma % 10) == 0)
+    return ((suma % 10) == 0);
   },
 
   //Función para enmascarar el número de la tarjeta.
@@ -30,7 +30,8 @@ const validator = {
     }
     //Para lo demas no aplica la función.
     else {
-      return numeroTarjeta}
+      return numeroTarjeta;
+    }
   },
 };
 

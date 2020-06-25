@@ -3,37 +3,37 @@ import validator from './validator.js';
 console.log(validator);
 
 //Variables para traer valores del html y los eventos a ejecutar al hacer click en botones.
-let botonIngresar = document.getElementById('botonIngresar');
+let botonIngresar = document.querySelector('#botonIngresar');
 botonIngresar.addEventListener("click",inicioCompra);
 
-let botonInicioCompra = document.getElementById('botonInicioCompra');
+let botonInicioCompra = document.querySelector('#botonInicioCompra');
 botonInicioCompra.addEventListener("click",continuarCompra);
 
-let botonInicioCompra1 = document.getElementById('botonInicioCompra1');
+let botonInicioCompra1 = document.querySelector('#botonInicioCompra1');
 botonInicioCompra1.addEventListener("click",continuarCompra);
 
-let botonInicioCompra2 = document.getElementById('botonInicioCompra2');
+let botonInicioCompra2 = document.querySelector('#botonInicioCompra2');
 botonInicioCompra2.addEventListener("click",continuarCompra);
 
-let botonEjecutarCompra = document.getElementById('botonEjecutarCompra');
+let botonEjecutarCompra = document.querySelector('#botonEjecutarCompra');
 botonEjecutarCompra.addEventListener("click",realizarCompra);
 
 
 //Funciones para prender y apagar las ventanas.
 function inicioCompra() {
-    document.getElementById('ventana1').style.display = 'none';
-    document.getElementById('ventana2').style.display = 'block';
+    document.querySelector('#ventana1').style.display = 'none';
+    document.querySelector('#ventana2').style.display = 'block';
 }
   
 function continuarCompra() {
-    document.getElementById('ventana2').style.display = 'none';
-    document.getElementById('ventana3').style.display = 'block';
+    document.querySelector('#ventana2').style.display = 'none';
+    document.querySelector('#ventana3').style.display = 'block';
 }
 
 //Funciones para capturar isvalid y maskify.
 function realizarCompra() {
     //Declaramos la variable tarjeta para tomar su valor.
-    let tarjeta = document.getElementById('tarjeta');
+    let tarjeta = document.querySelector('#tarjeta');
 
     //Se condiciona a no dejar el campo vacio, se obtiene un alert de advertencia.
     if (tarjeta.value == "") {
